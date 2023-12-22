@@ -27,6 +27,7 @@ namespace SetCompare
 
         public override int GetHashCode()
         {
+            // 딕셔너리 person 클래스 자체를 키로 쓰려면 
             return Age.GetHashCode() ^ Gender.GetHashCode() ^ Ssn.GetHashCode();
         }
     }
