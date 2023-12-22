@@ -43,11 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IComparable.cs" />
-    <Compile Include="IComparable_T.cs" />
-    <Compile Include="IComparer.cs" />
-    <Compile Include="IComparer_T.cs" />
-    <Compile Include="IEquatable.cs" />
+    <Compile Include="IEnumerable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
